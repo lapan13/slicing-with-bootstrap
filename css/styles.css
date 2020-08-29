@@ -112,6 +112,37 @@ a {
   margin-top: 50px;
 }
 
+.bx-wrapper {
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #ffffff;
+  box-shadow: 0 0 5px #fff;
+  border: 5px solid #fff;
+  background: #fff;
+}
+
+.bx-wrapper .bx-pager {
+  text-align: right;
+  padding-right: 120px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+  display: none;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #3bafbe;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #3bafbe;
+}
+
 .item {
   width: 80%;
 }
