@@ -107,3 +107,36 @@ a {
 #main_menu ul li a:hover {
   color: #3bafbe;
 }
+
+#banner_area {
+  margin-top: 50px;
+}
+
+.item {
+  width: 80%;
+}
+
+.item img {
+  margin-right: 70px;
+}
+
+.banner_text p {
+  color: #999999;
+
+  margin-top: 20px;
+}
+
+.banner_text a {
+  background-color: #3bafbe;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.banner_text a:hover {
+  background-color: #ee802f;
+}
