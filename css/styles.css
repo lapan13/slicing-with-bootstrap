@@ -112,6 +112,14 @@ a {
   margin-top: 50px;
 }
 
+/* banner_area with bxslider*/
+#banner_area,
+#intro,
+#shout,
+#service {
+  border-bottom: 1px solid #dddddd;
+  padding: 20px;
+}
 .bx-wrapper {
   -moz-box-shadow: 0 0 5px #fff;
   -webkit-box-shadow: 0 0 5px #ffffff;
@@ -151,7 +159,8 @@ a {
   margin-right: 70px;
 }
 
-.banner_text p {
+.banner_text p,
+.content p {
   color: #999999;
 
   margin-top: 20px;
@@ -170,4 +179,72 @@ a {
 
 .banner_text a:hover {
   background-color: #ee802f;
+}
+
+/* banner_area with bxslider*/
+.content {
+  width: 300px;
+}
+
+.content img {
+  align-content: center;
+}
+
+.content h6 {
+  margin-top: 20px;
+}
+
+.content a {
+  background-color: #3bafbe;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.content a:hover {
+  background-color: #ee802f;
+}
+
+/* banner_area with bxslider*/
+.blockquote {
+  width: 70%;
+}
+
+.blockquote p {
+  font-style: italic;
+}
+
+/* banner_area with bxslider*/
+
+#card,
+#card a {
+  padding-top: 20px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#card:hover,
+#card a:hover {
+  text-decoration: none;
+  background-color: #dddddd;
+  border-radius: 8px;
+}
+
+.small_content {
+  max-width: 100%;
+}
+
+.small_content h6 {
+  color: #3bafbe;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.small_content p {
+  color: #999999;
+  font-size: 10px;
 }
